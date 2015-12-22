@@ -1,0 +1,47 @@
+Opened up data on NYC Open Data for "311 Service Requests from 2010 to Present"
+
+Filtered data on NYC Open Data by Agency Name; selected "Department of Health and Mental Hygiene"
+
+Filtered data further on NYC Open Data by Complaint Type; selected "Rodents"
+
+Downloaded data as CSV file.
+
+Uploaded data to RStudio.
+
+::Shit, shit, shit! File is too large.::
+
+Filtered data further on NYC Open Data to include 2013 to present. 
+
+Downloaded data as CSV file.
+
+Attempting to upload CSV file to RStudio (::prays::)
+
+Womp womp. File is still too big.
+
+Opened data in Excel to delete excess columns. Remaining columns are: Unique Key, Agency Name, Complaint Type, Descriptor, Location Type, Incident Zip, Incident Address, Address Type, City, and Borough
+
+The date column — called "Created.Date" — includes a date and time stamp. 
+To focus on date, I used Excel's "Format Cell" feature to keep the date info and eliminate time.
+
+Used Excel's filter function to see borough-by-borough break down of rodent complaints. 
+Findings include:
+Total Cases — 75954
+Bronx: 16688
+Brooklyn: 23893
+Manhattan: 18903
+Queens: 12824
+Staten Island: 4096
+
+Filtered data on NYC Open Data to only show Brooklyn cases since the borough has highest number.
+
+Downloaded data as CSV file.
+
+Opened data in Excel and used the filter function to find out data based on years.
+Findings include:
+2015 — 9342
+2014 — 7668
+2013 — 6883
+
+This shows an increase from 2013 to 2015.
+
+
